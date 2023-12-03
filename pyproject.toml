@@ -1,14 +1,13 @@
 [tool.poetry]
-name = "app"
-version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
-license = "MIT"
+name = "advent2023"
+version = "1.0.0"
+description = "Advent of Code 2023"
+authors = ["Domia Dev <domia@domia.dev>"]
+license = "WTFPL"
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-
 
 [build-system]
 requires = ["poetry-core"]
