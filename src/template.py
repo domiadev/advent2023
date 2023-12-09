@@ -8,16 +8,20 @@ def part2(input: str) -> int:
         
 def main():
     print(f"=== Part 1 ===")
-    print(f"example: {part1(ex1)}")
-    assert 0 == part1(ex1)
-    print(f"actual:  {part1(input)}")
-    assert 0 == part1(input)
+    example1 = part1(ex1)
+    print(f"example: {example1}")
+    assert 0 == example1
+    result1 = part1(input)
+    print(f"actual:  {result1}")
+    assert 0 == result1
 
     print(f"=== Part 2 ===")
-    print(f"example: {part2(ex1)}")
-    assert 0 == part2(ex1)
-    print(f"actual:  {part2(input)}")
-    assert 0 == part2(input)
+    example2 = part2(ex1)
+    print(f"example: {example2}")
+    assert 0 == example2
+    result2 = part2(input)
+    print(f"actual:  {result2}")
+    assert 0 == result2
 
 ex1 = '''
 '''
